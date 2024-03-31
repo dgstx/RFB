@@ -538,7 +538,7 @@ for e in range(0, len(arquivos_cnae)):
 
     extracted_file_path = os.path.join(extracted_files, arquivos_cnae[e])
     cnae = pd.DataFrame(columns=[1,2])
-    cnae = pd.read_csv(filepath_or_buffer=extracted_file_path, sep=';', skiprows=0, header=None, dtype='object', encoding='ANSI')
+    cnae = pd.read_csv(filepath_or_buffer=extracted_file_path, sep=';', skiprows=0, header=None, dtype='object', encoding='utf-8')
 
     # Tratamento do arquivo antes de inserir na base:
     cnae = cnae.reset_index()
@@ -583,7 +583,7 @@ for e in range(0, len(arquivos_moti)):
 
     extracted_file_path = os.path.join(extracted_files, arquivos_moti[e])
     moti = pd.DataFrame(columns=[1,2])
-    moti = pd.read_csv(filepath_or_buffer=extracted_file_path, sep=';', skiprows=0, header=None, dtype='object', encoding='ANSI')
+    moti = pd.read_csv(filepath_or_buffer=extracted_file_path, sep=';', skiprows=0, header=None, dtype='object', encoding='utf-8')
 
     # Tratamento do arquivo antes de inserir na base:
     moti = moti.reset_index()
@@ -628,7 +628,7 @@ for e in range(0, len(arquivos_munic)):
 
     extracted_file_path = os.path.join(extracted_files, arquivos_munic[e])
     munic = pd.DataFrame(columns=[1,2])
-    munic = pd.read_csv(filepath_or_buffer=extracted_file_path, sep=';', skiprows=0, header=None, dtype='object', encoding='ANSI')
+    munic = pd.read_csv(filepath_or_buffer=extracted_file_path, sep=';', skiprows=0, header=None, dtype='object', encoding='utf-8')
 
     # Tratamento do arquivo antes de inserir na base:
     munic = munic.reset_index()
@@ -673,7 +673,7 @@ for e in range(0, len(arquivos_natju)):
 
     extracted_file_path = os.path.join(extracted_files, arquivos_natju[e])
     natju = pd.DataFrame(columns=[1,2])
-    natju = pd.read_csv(filepath_or_buffer=extracted_file_path, sep=';', skiprows=0, header=None, dtype='object', encoding='ANSI')
+    natju = pd.read_csv(filepath_or_buffer=extracted_file_path, sep=';', skiprows=0, header=None, dtype='object', encoding='utf-8')
 
     # Tratamento do arquivo antes de inserir na base:
     natju = natju.reset_index()
@@ -718,7 +718,7 @@ for e in range(0, len(arquivos_pais)):
 
     extracted_file_path = os.path.join(extracted_files, arquivos_pais[e])
     pais = pd.DataFrame(columns=[1,2])
-    pais = pd.read_csv(filepath_or_buffer=extracted_file_path, sep=';', skiprows=0, header=None, dtype='object', encoding='ANSI')
+    pais = pd.read_csv(filepath_or_buffer=extracted_file_path, sep=';', skiprows=0, header=None, dtype='object', encoding='utf-8')
 
     # Tratamento do arquivo antes de inserir na base:
     pais = pais.reset_index()
@@ -763,7 +763,7 @@ for e in range(0, len(arquivos_quals)):
 
     extracted_file_path = os.path.join(extracted_files, arquivos_quals[e])
     quals = pd.DataFrame(columns=[1,2])
-    quals = pd.read_csv(filepath_or_buffer=extracted_file_path, sep=';', skiprows=0, header=None, dtype='object', encoding='ANSI')
+    quals = pd.read_csv(filepath_or_buffer=extracted_file_path, sep=';', skiprows=0, header=None, dtype='object', encoding='utf-8')
 
     # Tratamento do arquivo antes de inserir na base:
     quals = quals.reset_index()

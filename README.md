@@ -57,3 +57,9 @@ pip install -r requirements.txt
 
 ### Modelo de Entidade Relacionamento:
 ![alt text](https://github.com/aphonsoar/Receita_Federal_do_Brasil_-_Dados_Publicos_CNPJ/blob/master/Dados_RFB_ERD.png)
+
+
+
+
+ - Desenvolvido por: Aphonso Henrique do Amaral Rafael
+ - Contribua com esse projeto aqui: https://github.com/aphonsoar/Receita_Federal_do_Brasil_-_Dados_Publicos_CNPJ
